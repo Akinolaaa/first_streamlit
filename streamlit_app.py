@@ -1,14 +1,14 @@
 import pandas as pd
 import streamlit as st
 import numpy as np
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 # Give the page an h1 title
 st.title('Uber Pickups in NYC')
 
 DATE_COLUMN = 'date/time'
 DATA_URL = ('https://s3-us-west-2.amazonaws.com/'
-         'streamlit-demo-data/uber-raw-data-sep14.csv.gz')
+            'streamlit-demo-data/uber-raw-data-sep14.csv.gz')
 
 # It takes a fairly long amount of time to load data and
 # we wouldn't want to reload everytime the app is updated
